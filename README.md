@@ -1,7 +1,7 @@
 # obsidian-age-backup
 
-Weekly, encrypted backups of an Obsidian vault folder on Windows — encrypted with a
-**public key**, so the computer that makes the backups can never open them.
+Weekly encrypted backups of an Obsidian vault on Windows. The computer holds only a
+**public key**; the private key stays with you. It can lock your backups, but never open them.
 
 <p align="center"><img src="docs/screenshot.png" alt="The Obsidian Backup window: last backup status, backup days and time, Back up now and Restore" width="360"></p>
 
