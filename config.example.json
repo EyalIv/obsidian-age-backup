@@ -1,0 +1,9 @@
+{
+  "source": "G:/My Drive/Obsidian",
+  "destinations": [
+    { "name": "Google Drive", "path": "G:/My Drive/Backups/Obsidian" },
+    { "name": "OneDrive",     "path": "C:/Users/YOUR_USER/OneDrive/Backups/Obsidian" }
+  ],
+  "keepDays": 56,
+  "keepMin": 3
+}

@@ -1,0 +1,8 @@
+# personal settings and anything key- or backup-related never goes to git
+config.json
+recipient.txt
+pw.dat
+*.key
+*.age
+*.7z
+*.log
