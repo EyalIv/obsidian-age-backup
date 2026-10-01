@@ -3,6 +3,8 @@
 Weekly, encrypted backups of an Obsidian vault folder on Windows — encrypted with a
 **public key**, so the computer that makes the backups can never open them.
 
+<p align="center"><img src="docs/screenshot.png" alt="The Obsidian Backup window: last backup status, backup days and time, Back up now and Restore" width="360"></p>
+
 ## Why this exists
 
 Sync is not backup. A two-way sync faithfully copies mistakes: delete files on one
