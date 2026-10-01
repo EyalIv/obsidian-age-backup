@@ -11,12 +11,12 @@ Sync is not backup. A two-way sync faithfully copies mistakes: delete files on o
 device and they disappear everywhere. This project came out of exactly that — a phone
 "free up space" cleanup plus a two-way sync tool removed hundreds of vault images.
 
-Most backup tools that run on a schedule keep a password on the machine so they can
-encrypt unattended. On a work-managed computer that is a weak spot: the password can
-end up in process logs, and stored credentials can be recoverable by domain admins.
+Most scheduled backup tools keep a password on the machine so they can encrypt
+unattended. That means anyone or anything with access to that machine can also open
+your backups.
 
-Here the machine only holds an [age](https://github.com/FiloSottile/age) **public key**.
-It can lock backups but not unlock them. The private key lives only in your password
+Here the machine only holds an [age](https://github.com/FiloSottile/age) **public key**:
+it can lock backups, but never unlock them. The private key lives only in your password
 manager (and ideally on paper).
 
 ## How it works
